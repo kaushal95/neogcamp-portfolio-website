@@ -18,6 +18,7 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+/* nav */
 nav{
     margin: 0 auto;
     background-color: var(--primary-clr);
@@ -55,6 +56,7 @@ nav .brand-text{
     font-size: large;
 }
 
+/* main hero */
 .hero-img-container{
     text-align: center;
     margin:4rem auto;
@@ -91,8 +93,19 @@ section .container p{
     margin-bottom: 2rem;
     margin-top:2rem
 }
-
+.dark-shade{
+    background-color: var(--text-light-grey);
+    padding: 1rem;
+    border-radius: 2rem;
+}
+.light-shade{
+    border:1px solid var(--text-light-grey);
+    padding: 1rem;
+    border-radius: 2rem;
+}
 section .project-section{
+    border: 1px solid var(--text-light-grey);
+    border-radius: 2rem;
     background-color: white;
 }
 
@@ -111,6 +124,8 @@ section .project-section{
     color: var(--primary-clr);
     border: 1px solid var(--primary-clr);
 }
+
+/* footer */
 footer{
     margin: 0 auto;
     background-color: var(--primary-clr);
@@ -131,9 +146,7 @@ footer .footer-text {
     /* font-weight: bold; */
     font-size: large;
 }
-/* .link-list{
-    text-align: center;
-} */
+/* projects page */
 ol {
     padding: 2rem;
     padding-top:0;
