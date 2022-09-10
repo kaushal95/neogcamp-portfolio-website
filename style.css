@@ -91,8 +91,19 @@ section .container p{
     margin-bottom: 2rem;
     margin-top:2rem
 }
-
+.dark-shade{
+    background-color: var(--text-light-grey);
+    padding: 1rem;
+    border-radius: 2rem;
+}
+.light-shade{
+    border:1px solid var(--text-light-grey);
+    padding: 1rem;
+    border-radius: 2rem;
+}
 section .project-section{
+    border: 1px solid var(--text-light-grey);
+        border-radius: 2rem;
     background-color: white;
 }
 
