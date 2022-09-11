@@ -98,6 +98,7 @@ section .container p{
     padding: 1rem;
     border-radius: 2rem;
 }
+
 .light-shade{
     border:1px solid var(--text-light-grey);
     padding: 1rem;
@@ -148,8 +149,11 @@ footer .footer-text {
 }
 /* projects page */
 ol {
-    padding: 2rem;
+    /* padding: 2rem; */ 
     padding-top:0;
+}
+ol .container{
+    width:85%
 }
 ol li .container *{
     margin: 1rem;
@@ -163,6 +167,33 @@ footer li a i{
 }
 footer li a i:hover{
     transform: scale(1.5);
+}
+
+@media screen and (min-width:1200px) {
+    ol .container {
+            width: auto;
+        }
+}
+
+/* single blog */
+
+.single-blog{
+    margin: 0 auto;
+    width: 85%;
+    max-width: 960px;
+    margin-bottom: 2rem;
+}
+.single-blog li  li{
+    /* list-style-type: disc; */
+    text-indent: 10%;
+    list-style-type: none;
+}
+
+h2,h3,h4{
+    margin: 1rem 0;
+}
+p{
+    margin: 0.5rem;
 }
 
 
